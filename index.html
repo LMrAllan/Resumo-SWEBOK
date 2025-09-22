@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SWEBOK v4.0 - Capítulo 4: Construção de Software</title>
+    <link rel="stylesheet" href="static/style.css">
+    </head>
+<body>
+    <header>
+        <h1>Guia SWEBOK v4.0: Um Mergulho no Capítulo 4</h1>
+        <h2>Construção de Software (Software Construction)</h2>
+    </header>
+
+    <main class="container">
+        <section class="card">
+            <h3>O que é o Guia SWEBOK?</h3>
+            <p>
+                O <strong>Guia para o Corpo de Conhecimento em Engenharia de Software (SWEBOK Guide)</strong>, publicado pelo IEEE Computer Society, é um documento fundamental que representa o estado atual do conhecimento geralmente aceito na área. 
+                Seu objetivo é promover uma visão consistente da engenharia de software em nível mundial, servindo como base para currículos educacionais, certificações e licenciamento profissional.
+            </p>
+            <p>
+                A Versão 4.0 foi atualizada para refletir práticas modernas de desenvolvimento, como Agile e DevOps, além de novas técnicas e o avanço de padrões na indústria.
+            </p>
+        </section>
+
+        <section class="card">
+            <h3>Capítulo 4: Construção de Software</h3>
+            <p>
+                A Construção de Software é a área de conhecimento que se refere à criação detalhada de software através de <strong>codificação, verificação, testes de unidade, testes de integração e depuração</strong>. 
+                Esta fase é a ponte entre o Design de Software (de onde recebe os insumos) e o Teste de Software (para onde envia seus resultados), sendo uma etapa crucial do ciclo de vida. O foco principal é a criação de código limpo, de alta qualidade e fácil de manter.
+            </p>
+        </section>
+
+        <h3 class="section-title">As 5 Áreas-Chave da Construção de Software</h3>
+        
+        <div class="grid-container">
+            <div class="card grid-item">
+                <h4>1. Fundamentos da Construção</h4>
+                <p>Princípios essenciais que guiam a prática de construção de código de qualidade.</p>
+                <ul>
+                    <li><strong>Minimização da Complexidade:</strong> Criar código simples e legível em vez de complexo, facilitando a manutenção.</li>
+                    <li><strong>Antecipação de Mudanças:</strong> Construir software flexível e extensível, adotando práticas como Agile e DevOps para se adaptar a novos requisitos.</li>
+                    <li><strong>Construção para Verificação:</strong> Escrever o código de forma que falhas possam ser facilmente encontradas por desenvolvedores e testadores.</li>
+                    <li><strong>Reuso de Ativos:</strong> Utilizar componentes existentes (frameworks, bibliotecas) e criar novos ativos reutilizáveis.</li>
+                    <li><strong>Aplicação de Padrões:</strong> Adotar padrões de codificação, comunicação e ferramentas para garantir consistência e eficiência.</li>
+                </ul>
+            </div>
+
+            <div class="card grid-item">
+                <h4>2. Gerenciamento da Construção</h4>
+                <p>Foca nos aspectos práticos de como a construção é organizada, planejada e medida.</p>
+                <ul>
+                    <li><strong>Planejamento da Construção:</strong> Define a ordem em que os componentes serão criados e integrados e aloca as tarefas.</li>
+                    <li><strong>Medição da Construção:</strong> Coleta métricas sobre o código (complexidade, taxas de defeitos, esforço) para gerenciar a qualidade e o progresso.</li>
+                    <li><strong>Gerenciamento de Dependências:</strong> Controla as dependências internas e externas (bibliotecas de terceiros) para evitar riscos de segurança, licenciamento e qualidade.</li>
+                     <li><strong>Construção em Ciclos de Vida:</strong> A abordagem varia: em modelos lineares (Waterfall), é uma fase distinta; em modelos iterativos (Agile), sobrepõe-se a outras atividades como design e testes.</li>
+                </ul>
+            </div>
+
+            <div class="card grid-item">
+                <h4>3. Considerações Práticas</h4>
+                <p>Aborda os desafios do mundo real enfrentados durante a codificação.</p>
+                <ul>
+                    <li><strong>Design na Construção:</strong> Parte do trabalho de design detalhado ocorre durante a construção, onde o engenheiro define detalhes de algoritmos, estruturas de dados e interfaces.</li>
+                    <li><strong>Linguagens de Construção:</strong> Inclui todas as formas de comunicação para especificar uma solução, desde linguagens de configuração e scripts até linguagens de programação (linguísticas, formais ou visuais).</li>
+                    <li><strong>Qualidade da Construção:</strong> Aplica técnicas como testes de unidade, programação defensiva, inspeções e análise estática para garantir a qualidade do código.</li>
+                    <li><strong>Integração:</strong> Combina componentes individuais em um sistema coeso. A <strong>Integração Contínua (CI)</strong> é uma prática moderna onde o trabalho é integrado frequentemente para detectar erros rapidamente.</li>
+                </ul>
+            </div>
+
+            <div class="card grid-item">
+                <h4>4. Tecnologias de Construção</h4>
+                <p>Explora tecnologias e técnicas avançadas para criar software robusto e flexível.</p>
+                <ul>
+                    <li><strong>Design e Uso de APIs:</strong> Foca em criar interfaces que sejam fáceis de aprender, difíceis de usar incorretamente e estáveis para não quebrar aplicações clientes.</li>
+                    <li><strong>Tratamento de Erros e Tolerância a Falhas:</strong> Utiliza técnicas como asserções, Design by Contract e programação defensiva para lidar com entradas inválidas e condições excepcionais.</li>
+                    <li><strong>Programação Orientada a Testes (TDD):</strong> Prática de escrever os testes *antes* do código, ajudando a clarificar requisitos e a detectar defeitos mais cedo.</li>
+                    <li><strong>Loop de Feedback para Construção:</strong> Prática central em Agile e DevOps, onde o feedback rápido da operação permite que os desenvolvedores aprendam como o código se comporta em produção.</li>
+                </ul>
+            </div>
+
+            <div class="card grid-item">
+                <h4>5. Ferramentas de Construção</h4>
+                <p>Ferramentas que aumentam a eficiência e a qualidade do processo de construção.</p>
+                <ul>
+                    <li><strong>Ambientes de Desenvolvimento (IDEs):</strong> Fornecem um conjunto integrado de ferramentas para edição de código, compilação, depuração e controle de versão.</li>
+                    <li><strong>Ferramentas de Teste de Unidade:</strong> Frameworks que automatizam a verificação de módulos de software de forma isolada.</li>
+                    <li><strong>Ferramentas de Análise de Desempenho (Profiling):</strong> Monitoram o código em execução para identificar "gargalos" e otimizar a performance.</li>
+                    <li><strong>Plataformas Low-Code/Zero-Code:</strong> Permitem criar aplicações com pouca ou nenhuma codificação manual, utilizando interfaces visuais.</li>
+                </ul>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 - Trabalho baseado no Guia SWEBOK v4.0 do IEEE Computer Society</p>
+    </footer>
+</body>
+</html>
